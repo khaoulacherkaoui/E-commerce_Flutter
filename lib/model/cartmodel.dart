@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class CartModel {
   final String name;
   final String image;
