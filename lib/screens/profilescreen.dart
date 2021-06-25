@@ -303,7 +303,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   icon: Icon(
                     Icons.check,
                     size: 30,
-                    color: Color(0xff746bc9),
+                    color: Color(0xFFF8BBD0),
                   ),
                   onPressed: () {
                     vaildation();
@@ -389,7 +389,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                                   Colors.transparent,
                                               child: Icon(
                                                 Icons.camera_alt,
-                                                color: Color(0xff746bc9),
+                                                color: Color(0xFFF8BBD0),
                                               ),
                                             ),
                                           ),

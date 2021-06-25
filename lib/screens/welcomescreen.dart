@@ -62,7 +62,7 @@ class WelcomeScreen extends StatelessWidget {
                           "Sign Up",
                           style: TextStyle(fontSize: 18, color: Colors.white),
                         ),
-                        color: Color(0xff746bc9),
+                        color: Color(0xFFF8BBD0),
                         onPressed: () {
                           Navigator.of(context).pushReplacement(
                             MaterialPageRoute(

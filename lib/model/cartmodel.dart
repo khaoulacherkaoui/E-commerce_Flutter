@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 
 class CartModel {
-  final String name;
-  final String image;
-  final double price;
-  final int quentity;
-  final String color;
-  final String size;
+  final String name;//name
+  final String image;//image
+  final double price;//price
+  final int quentity;//quentity
+  final String color;//color
+  final String size;//size
   CartModel({
     @required this.price,
     @required this.name,

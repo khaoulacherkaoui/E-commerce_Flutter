@@ -39,7 +39,7 @@ class SingleProduct extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 17,
-                        color: Color(0xff9b96d6)),
+                        color: Color(0xFFF8BBD0)),
                   ),
                   Container(
                     child: Text(

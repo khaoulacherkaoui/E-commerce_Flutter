@@ -66,7 +66,7 @@ class _DetailScreenState extends State<DetailScreen> {
               Text(
                 "\$ ${widget.price.toString()}",
                 style: TextStyle(
-                    color: Color(0xff9b96d6),
+                    color: Color(0xFFF8BBD0),
                     fontSize: 18,
                     fontWeight: FontWeight.bold),
               ),
@@ -196,7 +196,7 @@ class _DetailScreenState extends State<DetailScreen> {
         Container(
           width: 265,
           child: ToggleButtons(
-            fillColor: Color(0xff746bc9),
+            fillColor: Color(0xFFF8BBD0),
             renderBorder: false,
             children: [
               _buildColorProduct(color: Colors.blue[200]),
@@ -243,7 +243,7 @@ class _DetailScreenState extends State<DetailScreen> {
           height: 40,
           width: 130,
           decoration: BoxDecoration(
-            color: Color(0xff746bc9),
+            color: Color(0xFFF8BBD0),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,

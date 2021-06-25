@@ -16,7 +16,7 @@ class About extends StatelessWidget {
           title: IconButton(
             icon: Icon(
               Icons.arrow_back,
-              color: Color(0xff746bc9),
+              color: Color(0xFFF8BBD0),
               size: 35,
             ),
             onPressed: () {
@@ -37,7 +37,7 @@ class About extends StatelessWidget {
                 "About",
                 style: TextStyle(
                   fontSize: 40,
-                  color: Color(0xff746bc9),
+                  color: Color(0xFFF8BBD0),
                 ),
               ),
               Image(

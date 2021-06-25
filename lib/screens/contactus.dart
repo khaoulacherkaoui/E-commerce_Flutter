@@ -91,7 +91,7 @@ class _ContactUsState extends State<ContactUs> {
           title: IconButton(
             icon: Icon(
               Icons.arrow_back,
-              color: Color(0xff746bc9),
+              color: Color(0xFFF8BBD0),
               size: 35,
             ),
             onPressed: () {
@@ -110,7 +110,7 @@ class _ContactUsState extends State<ContactUs> {
               Text(
                 "Sent Us Your Message",
                 style: TextStyle(
-                  color: Color(0xff746bc9),
+                  color: Color(0xFFF8BBD0),
                   fontSize: 28,
                 ),
               ),

@@ -132,7 +132,7 @@ class _CheckOutSingleProductState extends State<CheckOutSingleProduct> {
                         Text(
                           "\$${widget.price.toStringAsFixed(2)}",
                           style: TextStyle(
-                              color: Color(0xff9b96d6),
+                              color: Color(0xFFF8BBD0),
                               fontSize: 18,
                               fontWeight: FontWeight.bold),
                         ),
