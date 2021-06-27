@@ -325,7 +325,8 @@ class _HomePageState extends State<HomePage> {
         ),
         Container(
           height: 60,
-          child: Row(
+          child: ListView (
+            scrollDirection: Axis.horizontal,
             children: <Widget>[
               _buildDressIcon(),
               _buildShirtIcon(),
@@ -372,7 +373,8 @@ class _HomePageState extends State<HomePage> {
             )
           ],
         ),
-        Row(
+        Wrap(
+        direction: Axis.horizontal,
           children: productProvider.getHomeFeatureList.map((e) {
             return Expanded(
               child: Row(
@@ -460,7 +462,8 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ),
-        Row(
+        Wrap(
+        direction: Axis.horizontal,
             children: productProvider.getHomeAchiveList.map((e) {
           return Expanded(
             child: Column(

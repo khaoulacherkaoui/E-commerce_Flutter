@@ -32,7 +32,7 @@ class _CheckOutSingleProductState extends State<CheckOutSingleProduct> {
   Widget _buildImage() {
     return Container(
       height: height * 0.1 + 50,
-      width: width * 0.3,
+      width: width * 0.29,
       decoration: BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.fill,

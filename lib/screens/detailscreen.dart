@@ -84,7 +84,7 @@ class _DetailScreenState extends State<DetailScreen> {
       child: Wrap(
         children: <Widget>[
           Text(
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+            "Available in different styles, colors and materials. Unique style & high quality. 1st order discount. More than 1000 styles at affordable prices. New style for women and men. Be your own style. Big sale & New products. Free shipping",
             style: TextStyle(fontSize: 16),
           )
         ],
